@@ -44,7 +44,6 @@ const App = () => {
             <Title cityName={city}/>
             <Form setCity={setCity} getWeather={getWeather}/>
             <Results results={results}/>
-            <p>{city}</p>
         </div>
     )
 }

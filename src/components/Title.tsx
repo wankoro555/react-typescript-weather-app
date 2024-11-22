@@ -6,7 +6,7 @@ const Title = (props:TitleProps) => {
     
     return (
         <h1>
-            React World Weather {props.cityName}
+            React World Weather
         </h1>
     )
 }
