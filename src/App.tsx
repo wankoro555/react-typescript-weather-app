@@ -41,7 +41,7 @@ const App = () => {
 
     return (
         <div className="wrapper">
-            <Title cityName={city}/>
+            <Title />
             <Form setCity={setCity} getWeather={getWeather}/>
             <Results results={results}/>
         </div>

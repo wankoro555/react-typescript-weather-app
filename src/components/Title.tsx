@@ -1,8 +1,9 @@
+/*
 type TitleProps = {
     cityName: string
 }
-
-const Title = (props:TitleProps) => {
+*/
+const Title = () => {
     
     return (
         <h1>
